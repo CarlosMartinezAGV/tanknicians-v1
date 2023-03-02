@@ -1,10 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AdminDashboard from './components/AdminDashboard';
 
 function App() {
   return (
-    <div>Hello World</div>
+   <AdminDashboard/>
   );
 }
 
