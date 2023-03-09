@@ -5,22 +5,22 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import Navigator from './Navigator';
-import Content from './Content';
-import Header from './Header';
+import Navigator from '../Components/DashBoardNavigator';
+import Content from '../Components/DashBoardContent';
+import Header from '../Components/DashboardHeader';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://tanknicians.com/" target="_blank">
+        Tanknicians
       </Link>{' '}
       {new Date().getFullYear()}.
     </Typography>
   );
 }
-
+ 
 let theme = createTheme({
   palette: {
     primary: {
